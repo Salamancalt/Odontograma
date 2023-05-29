@@ -1,0 +1,134 @@
+.botoncustom1 {
+  top: 1px; left: 18.09px;
+  border-radius: 0% 0% 0% 0%;
+  background-color: #fff;
+  cursor: pointer;
+  margin: 0px;
+  border: 2px solid #434E5E;
+  border-radius: 100% 0% 0% 0%;
+  transform: rotate(45deg);
+}
+.botoncustom1:hover {
+    background-color: #FF467F;
+}
+
+.botoncustom2 {
+  top: 19.1px; left: 36px;
+  border-radius: 0% 0% 0% 0%;
+  background-color: #fff;
+  cursor: pointer;
+  margin: 0px;
+  border: 2px solid #434E5E;
+  border-radius: 0% 100% 0% 0%;
+  transform: rotate(45deg);
+}
+.botoncustom2:hover {
+    background-color: #FF467F;
+}
+
+.botoncustom3 {
+  top: 37px; left: 18.09px;
+  border-radius: 0% 0% 100% 0%;
+  background-color: #fff;
+  cursor: pointer;
+  margin: 0px;
+  border: 2px solid #434E5E;
+  transform: rotate(45deg);
+}
+.botoncustom3:hover {
+    background-color: #FF467F;
+}
+
+.botoncustom4 {
+  top: 19.09px; left: 0px;
+  border-radius: 0% 0% 0% 100%;
+  background-color: #fff;
+  cursor: pointer;
+  margin: 0px;
+  border: 2px solid #434E5E;
+  transform: rotate(45deg);
+}
+.botoncustom4:hover {
+    background-color: #FF467F;
+}
+
+.botoncustom5 {
+  position: relative;
+  top: 20.09px; left: 19.09px;
+  border-radius: 0% 0% 0% 0%;
+  height: 25px !important;
+  width: 25px !important;
+  background-color: #fff;
+  cursor: pointer;
+  margin: 0px;
+  border: 2px solid #434E5E;
+  border-radius: 100%;
+  transform: rotate(45deg);
+}
+.botoncustom5:hover {
+    background-color: #FF467F;
+}
+
+.wrapper {
+  position: relative;
+  /* border: 1px dashed black; */
+}
+
+.boton {
+  position: absolute;
+  height: 27px;
+  width: 27px;
+  margin-left: -30px;
+}
+
+/* CUADRANTES */
+.cuadrantes-superiores {
+  display: flex;
+  justify-content: space-between;
+}
+.cuadrantes-inferiores {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.cuadrante-1 {
+  width: 600px;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.cuadrante-2 {
+  width: 600px;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.cuadrante-3 {
+  width: 600px;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+}
+.cuadrante-4 {
+  width: 600px;
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+}
+
+
+/* .cuadrante-1 .fila-dos {
+  justify-content: flex-end;
+} */
+
+
+
+
+
+.area-total {
+  width: 1100px;
+}
+
+.fila {
+  min-height: 60px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-around;
+}
