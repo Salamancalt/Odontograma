@@ -352,7 +352,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <input type="color" disabled class="form-control form-control-color" value="${item.cor}">
                     </td>
                     <td>
-                        ${item.informacoesAdicionais || 'NÃO INFORMADO'}
+                        ${item.informacoesAdicionais || 'NINGUNA INFORMACIÓN'}
                     </td>
                     <td>
                         <a onclick="apagar('${item.nome}', ${item.numeroDente}, ${item.faceDente})" class="btn btn-danger">
@@ -684,12 +684,6 @@ document.addEventListener('DOMContentLoaded', () => {
             y: (camada1.width * 20) / tamanhoTelaReferencia,
             largura: (camada1.width * 70) / tamanhoTelaReferencia,
             altura: (camada1.width * 150) / tamanhoTelaReferencia
-        }
-
-        base_image = new Image();
-        base_image.src = 'images/dentes/18.png';
-        base_image.onload = function() {
-            contexto1.drawImage(base_image, valoresBase.x, valoresBase.y, valoresBase.largura, valoresBase.altura);
         }
 
         posicoesPadrao.margemXEntreDentes = (camada1.width * 8) / tamanhoTelaReferencia
