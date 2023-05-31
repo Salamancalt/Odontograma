@@ -12,9 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const camada4 = document.querySelector('#camada4Odontograma')
     const contexto4 = camada4.getContext('2d')
 
-    const camadaPincel = document.querySelector('#camadaPincel')
-    const contextoPincel = camadaPincel.getContext('2d')
-
     const modal = new bootstrap.Modal(document.getElementById('modal'))
 
     let posicoesPadrao = {
@@ -27,34 +24,25 @@ document.addEventListener('DOMContentLoaded', () => {
     const alturaTelaReferencia = 872
 
     const itensProcedimento = [{
-        nome: 'Lesão branca ativa de cárie',
+        nome: 'Caries radiograficas',
         cor: '#008000'
     }, {
-        nome: 'Lesão branca inativa de cárie',
+        nome: 'Sellado de fosas y fisuras',
         cor: '#FFFF00'
     }, {
-        nome: 'Lesão de cárie cavitada',
+        nome: 'Patologia o lesión,',
         cor: '#FF0000'
     }, {
-        nome: 'Cárie paralisada/ pigmentação do sulco',
+        nome: 'Ausencias de la pieza natural',
         cor: '#000000'
     }, {
-        nome: 'Restaurações em bom estado',
+        nome: 'Tratamiento que el paciente ya tiene hecho',
         cor: '#0000FF'
-    }, {
-        nome: 'Restauração a ser trocada',
-        cor: '#FFC0CB'
-    }, {
-        nome: 'Lesão cervical não- cariosa',
-        cor: '#8B0000'
     }, {
         nome: 'Faceta de desgaste',
         cor: '#FA8072'
     }, {
-        nome: 'Limpar seção',
-        cor: '#FFFFFF'
-    }, {
-        nome: 'Outro',
+        nome: 'Otro',
         cor: '#008080'
     }]
 

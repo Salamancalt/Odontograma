@@ -38,7 +38,7 @@
 }
 
 .diente .parte:hover {
-    background-color: rebeccapurple;
+    background-color: rgb(51, 146, 153);
     cursor: pointer;
 }
 

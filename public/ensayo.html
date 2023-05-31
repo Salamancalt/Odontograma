@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ensayo.css">
+    <script src="ensayo.js"></script>
+    <title>UTILIZAR</title>
+</head>
+<body>
+    <table>
+        <tr>
+          <td id="11" onclick="openModal('11')">11</td>
+          <td id="12" onclick="openModal('12')">12</td>
+          <td id="13" onclick="openModal('13')">13</td>
+          <td id="14" onclick="openModal('14')">14</td>
+
+          <!-- Resto de los dientes... -->
+        </tr>
+        <!-- Filas restantes... -->
+      </table>
+      
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal()">&times;</span>
+          <h2 id="toothNumber"></h2>
+          <p id="toothInfo"></p>
+        </div>
+      </div>
+</body>
+</html>
+
