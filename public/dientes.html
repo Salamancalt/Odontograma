@@ -8,15 +8,27 @@
     <title>ODONTOGRAMA SEBAS</title>
 </head>
 <body>
+    <div id="menuProcedimientos" class="menu-personalizado">
+        <i>Procedimientos</i>
+        <ul class="lista">
+            <li class="menu-item" onclick="asignacionColor('DDDD','red')"><div class="indicativo red"></div>Red</li> 
+            <li class="menu-item" onclick="asignacionColor('DDDD','yellow')"><div class="indicativo yellow"></div>Yellow</li> 
+            <li class="menu-item" onclick="asignacionColor('DDDD','green')"><div class="indicativo green"></div>Green</li> 
+            <li class="menu-item" onclick="asignacionColor('DDDD','black')"><div class="indicativo black"></div>Black</li> 
+            <li class="menu-item" onclick="asignacionColor('DDDD','blue')"><div class="indicativo blue"></div>Blue</li> 
+        </ul>
+        <button type="button">Cerrar</button>
+    </div>
+
     <div class="cuadrantes">
         <div class="cuadrante cuadrante-1">
             <div class="fila fila-right fila-adulto">
                 <div class="diente">
-                    <div class="parte parte-1"></div>
-                    <div class="parte parte-2"></div>
-                    <div class="parte parte-3"></div>
-                    <div class="parte parte-4"></div>
-                    <div class="parte parte-5"></div>
+                    <div class="parte parte-1" id="d18-p1" onclick="mostrarMenu(event)"></div>
+                    <div class="parte parte-2" id="d18-p2" onclick="mostrarMenu(event)"></div>
+                    <div class="parte parte-3" id="d18-p3" onclick="mostrarMenu(event)"></div>
+                    <div class="parte parte-4" id="d18-p4" onclick="mostrarMenu(event)"></div>
+                    <div class="parte parte-5" id="d18-p5" onclick="mostrarMenu(event)"></div>
                     <div class="parte parte-6">18</div>
                 </div>
                 <div class="diente">
@@ -453,5 +465,6 @@
             </div>
         </div>
     </div>
+    <script src="dientes.js"></script>
 </body>
 </html>

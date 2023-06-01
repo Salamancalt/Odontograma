@@ -2,7 +2,7 @@
     display: flex;
     height: 90px;
     margin-top: 10px;
-    /* border: 1px solid red; */
+    /* border: 1px solid.blue; */
 }
 .fila-right {
     justify-content: flex-end;
@@ -10,12 +10,12 @@
 .fila-left {
     justify-content: flex-start;
 }
-.fila-adulto {
-    /* display: none; */
+/* .fila-adulto {
+    display: none;
 }
 .fila-infante {
     display: none;
-}
+} */
 
 .diente{
     height: 60px;
@@ -104,4 +104,46 @@
 .cuadrante-4 {
     border-left: 2px solid black;
     border-top: 2px solid black;
+}
+
+.indicativo {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.menu-personalizado {
+    min-height: 100px;
+    min-width: 100px;
+}
+
+.lista {
+    padding-left: 0px;
+}
+
+.lista .menu-item {
+    display: flex;
+    justify-content: left;
+    padding: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+
+.lista .menu-item:hover {
+    background-color: gray;
+}
+
+.red {
+    background-color: red !important;
+}
+.blue {
+    background-color: blue !important;
+}
+.green {
+    background-color: green !important;
+}
+.black {
+    background-color: black !important;
+}
+.yellow {
+    background-color: yellow !important;
 }
