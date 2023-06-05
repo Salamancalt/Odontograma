@@ -13,22 +13,16 @@ var toothInfo = {
     '22': 'Información del diente 22',
     
     // Resto de los dientes...
-  // };
-  // var procedimento ={
-  //   '1':'CARIES ',
-  //   '2':'ESTRACCION ',
-  //   '1':'ARREGLO ',
-  };
-  
+}
   function openModal(toothId) {
     var modal = document.getElementById('myModal');
     var toothNumber = document.getElementById('toothNumber');
     var toothInfoText = document.getElementById('toothInfo');
-    // var procedimento =document.getElementById('procedimiento');
+  
   
     toothNumber.textContent = 'AÑADIR PROCEDIMIENTO: DIENTE ' + toothId;
     toothInfoText.textContent = toothInfo[toothId] || 'Información no disponible';
-    // procedimento.textContent ='coloresss';
+   
   
     modal.style.display = 'block';
   }

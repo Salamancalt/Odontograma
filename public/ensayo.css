@@ -13,10 +13,13 @@ table {
     min-height: 100vh;
     overflow: none;
     background-color: rgba(0, 0, 0, 0.11);
+    flex: auto;
+    padding: 1rem;
 
 }
 
 .modal-content {
+    pointer-events: auto;
     background-color: #ffffff;
     border-radius: 15px;
     padding: 20px;
@@ -165,12 +168,12 @@ table {
 
 .form-control {
     display: block;
-    width: 620px;
-    min-width: 620px;
-    max-width: 620px;
+    width: 610px;
+    min-width:610px;
+    max-width: 610px;
     margin-top: 5px;
     margin-bottom: 20px;
-    padding: 0.375rem 0.75rem;
+    /* padding: 0.375rem 0.75rem; */
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -186,6 +189,8 @@ table {
 }
 
 .form-label {
+    width: 20px;;
+    height: 67px;
     margin-bottom: 1rem;
 }
 
@@ -193,12 +198,196 @@ table {
     display: inline-block;
 }
 
-*,
-::after,
-::before {
-    box-sizing: border-box;
-}
-
 label {
     cursor: default;
+}
+
+.table-responsive {
+  
+    position: flex;
+ 
+    min-width: 600px;
+   
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+table{
+    overflow: scroll;
+    border-collapse:collapse;
+}
+th,tr,td{
+	border:1px solid #000;
+	height:40px;
+	vertical-align:middle;
+	text-align:center;
+}
+th{
+	color:#fff;
+	background-color: #252525;
+    width: 23vh !important;
+}
+
+tr:nth-child(odd) td{
+	background-color:#eee;
+}
+.color {
+    border-radius: 7px;
+    width: 50px;
+}
+
+.button-22 {
+  align-items: center;
+  appearance: button;
+  background-color: #0276FF;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "RM Neue",sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 10px;
+  padding: 10px 21px;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 300px;
+}
+
+.button-22:active {
+  background-color: #006AE8;
+}
+
+.button-22:hover {
+  background-color: #1C84FF;
+}
+
+.centers{
+margin-left: 25%;
+display: flex;
+align-items: center;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    padding: 30px;
+}
+
+
+/* COLUMN1 */
+
+.column1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 32px;
+    flex-grow: 1;
+    height: 100%;
+}
+
+
+/* CUADRANTE 1 */
+
+.quadrant1 {
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    box-shadow: 0px 0px 12px #42424217;
+    background: #7E9096 0% 0% no-repeat padding-box;
+    border: 1px solid #E8E8E8;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+.quadrant1-foto {
+    display: flex;
+    margin: 25px 0px 0px 25px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: gray;
+}
+
+
+/* CUADRANTE 2 */
+
+.header-quadrant2 {
+    width: 100%;
+    height: 45px;
+    background: #6FFCD5 0% 0% no-repeat padding-box;
+    border-radius: 4px 4px 0px 0px;
+    opacity: 1;
+}
+
+.header-quadrant2-title {
+    display: flex;
+    justify-content: start;
+    margin-left: 24px;
+}
+
+.quadrant2 {
+    width: 100%;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    background: #7E9096 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 12px #42424217;
+    border-radius: 4px 4px 0px 0px;
+    border: 1px solid #E8E8E8;
+    opacity: 1;
+    margin-top: 24px;
+}
+
+
+/* COLUMN2 */
+
+.column2 {
+    display: flex;
+    flex-grow: 3;
+    height: 100%;
+}
+
+
+/* CUADRANTE 3 */
+
+.header-quadrant3 {
+    width: 100%;
+    height: 45px;
+    background: #6FFCD5 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 4px;
+}
+
+.header-quadrant3-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.quadrant3 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: #7E9096 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 12px #42424217;
+    border: 1px solid #E8E8E8;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+
+/* GLOBAL */
+
+div {
+    box-sizing: border-box;
 }

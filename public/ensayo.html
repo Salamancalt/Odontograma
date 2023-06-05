@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="stylesheet" href="ensayo.css">
   <script src="ensayo.js"></script>
   <title>UTILIZAR HI</title>
@@ -486,9 +487,9 @@
       <p id="toothInfo"></p>
       <div class="form-group col-md-12">
         <label for="nomeProcedimento">NOMBRE</label>
-        <i data-type="info" class="fas fa-info-circle fa-1x text-info"  onclick="toast_message('.','info')"
+        <i data-type="info" class="fas fa-info-circle fa-1x text-info" onclick="toast_message('.','info')"
           style="margin-left: 5px; cursor: pointer;"></i>
-          
+
         <select class="form-control" id="nomeProcedimento">
           <option selected="" value="">-- Selecione una opcion --</option>
 
@@ -501,13 +502,42 @@
           <option value="Otro">Otro</option>
         </select>
       </div>
-      <label for="nomeProcedimento">COLOR</label>
-      <div class="form-group col-md-12">
-      <label for="nomeProcedimento">INFORMACIONES ADICIONALES</label>
-      <textarea rows="5" id="informacoesAdicionais" maxlength="5000" class="form-control"></textarea>
+      <div>
+        <label for="exampleColorInput">COLOR</label>
+        <br>
+        <input type="color" id="" disabled="" class="color">
       </div>
-      
+      <br>
+      <div class="form-group col-md-12">
+        <label for="nomeProcedimento">INFORMACIONES ADICIONALES</label>
+        <textarea rows="5" id="informacoesAdicionais" maxlength="5000" class="form-control"></textarea>
+      </div>
+      <div class="centers">
+        <button class="button-22" role="button">AGREGAR</button>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-3">
+          <div class="panel panel-default">
+            <div class="table-responsive">
+              <table>
+                <thead>
+                  <tr>
+                    <th>NOMBRE</th>
+                    <th>COLOR</th>
+                    <th>INFORMACIONES ADICIONAES</th>
+                    <th class="text-center">COMPORTAMIENTO</th>
+                  </tr>
+              </table>
+            </div>
+          </div></div>
+      </div></div></div></body>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+
+  </div>
   </div>
 </body>
 
